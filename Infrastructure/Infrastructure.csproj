@@ -41,38 +41,38 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Expression.Controls">
-      <HintPath>..\..\..\_temp\_bin\System.Windows.Interactivity\Microsoft.Expression.Controls.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Expression.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Expression.Drawing">
-      <HintPath>..\..\..\_temp\_bin\System.Windows.Interactivity\Microsoft.Expression.Drawing.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Expression.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Expression.Effects">
-      <HintPath>..\..\..\_temp\_bin\System.Windows.Interactivity\Microsoft.Expression.Effects.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Expression.Effects.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>..\..\..\_temp\_bin\Microsoft.Practices.Prism\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.Interactivity">
-      <HintPath>..\..\..\_temp\_bin\Microsoft.Practices.Prism\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.MefExtensions">
-      <HintPath>..\..\..\_temp\_bin\Microsoft.Practices.Prism\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
-      <HintPath>..\..\..\_temp\_bin\Microsoft.Practices.Prism\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>..\..\..\_temp\_bin\Microsoft.Practices.Prism\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity">
-      <HintPath>..\..\..\_temp\_bin\Microsoft.Practices.Prism\Microsoft.Practices.Unity.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Unity.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Interactivity">
-      <HintPath>..\..\..\_temp\_bin\System.Windows.Interactivity\System.Windows.Interactivity.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\System.Windows.Interactivity.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Presentation" />
     <Reference Include="System.Xaml" />
