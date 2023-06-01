@@ -35,16 +35,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Castle.Core.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.DynamicProxy2">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Castle.DynamicProxy2.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Castle.DynamicProxy2.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Services.Logging.log4netIntegration">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Castle.Services.Logging.log4netIntegration.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Castle.Services.Logging.log4netIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Services.Logging.NLogIntegration">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Castle.Services.Logging.NLogIntegration.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Castle.Services.Logging.NLogIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -55,13 +55,13 @@
       <HintPath>..\SharedLib\LinFu.DynamicProxy.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\SimpleTagBlocker\bin\Debug\log4net.dll</HintPath>
+      <HintPath>..\SharedLib\Model\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.Interactivity">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+      <HintPath>..\SharedLib\Infrastructure\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
     </Reference>
     <Reference Include="OplScada.PointProcessor.Library">
       <HintPath>..\SharedLib\OplScada.PointProcessor.Library.dll</HintPath>
@@ -82,22 +82,20 @@
       <HintPath>..\SharedLib\Tamsa.OplScada.AcquisitionClient.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.Common">
-      <HintPath>..\packages\Lib\Tenaris.Library.Common.dll</HintPath>
+      <HintPath>..\..\..\..\Tracking\ProyectoTracking\Tenaris.Fava.Tracking\SharedLib\Tenaris.Library.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Tenaris.Library.Framework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=d69ca37b4d4b73b8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Tenaris.Library.Framework.4.1.2\lib\net40\Tenaris.Library.Framework.dll</HintPath>
+    <Reference Include="Tenaris.Library.Framework">
+      <HintPath>..\SharedLib\Model\Tenaris.Library.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.Log, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\SharedLib\Tenaris.Library.Log.4.1.1\lib\net40\Tenaris.Library.Log.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.UI.Framework">
-      <HintPath>..\..\..\V5 Corregida\V5 condialogs\packages\Lib\Tenaris.Library.UI.Framework.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Tenaris.Library.UI.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Tenaris.Library.UI.Framework.Language, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Tenaris.Library.UI.Framework.Language.4.2.1\lib\net40\Tenaris.Library.UI.Framework.Language.dll</HintPath>
+    <Reference Include="Tenaris.Library.UI.Framework.Language">
+      <HintPath>..\SharedLib\Model\Tenaris.Library.UI.Framework.Language.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
