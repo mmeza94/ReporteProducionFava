@@ -78,7 +78,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Tenaris.Fava.Production.Reporting.Languages">
-      <HintPath>..\Tenaris.Fava.Production.Reporting.Languages\bin\Debug\Tenaris.Fava.Production.Reporting.Languages.dll</HintPath>
+      <HintPath>..\SharedLib\Tenaris.Fava.Production.Reporting.Languages.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.Common">
       <HintPath>..\..\..\..\Tracking\ProyectoTracking\Tenaris.Fava.Tracking\SharedLib\Tenaris.Library.Common.dll</HintPath>
