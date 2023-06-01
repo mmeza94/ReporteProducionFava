@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
-      <HintPath>..\SimpleTagBlocker\bin\Debug\log4net.dll</HintPath>
+      <HintPath>..\SharedLib\Model\log4net.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\SharedLib\NHibernate.dll</HintPath>
@@ -72,7 +72,7 @@
       <HintPath>..\SharedLib\Tamsa.OplScada.AcquisitionClient.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.Acquisition.Common">
-      <HintPath>C:\Users\Gio\Documents\Tesis\FAVA\ReporteProduccion\Tenaris.Production.Reporting v1\SharedLib\Tenaris.Library.Acquisition.Common.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Tenaris.Library.Acquisition.Common.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.Common">
       <HintPath>..\SharedLib\Tenaris.Library.Common.dll</HintPath>
@@ -81,20 +81,19 @@
       <HintPath>..\SharedLib\Tenaris.Library.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.DbClient">
-      <HintPath>..\..\..\..\version-actualizada-V5\Version-Actualizada21-Sept-2022\Reporting.V5\packages\Lib\Tenaris.Library.DbClient.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Tenaris.Library.DbClient.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.Framework">
-      <HintPath>..\..\..\..\ULTIMAACUALIZACIONFAVA\Reporting.V5\packages\Lib\Tenaris.Library.Framework.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Tenaris.Library.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Tenaris.Library.Log, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\version-actualizada-V5\Version-Actualizada21-Sept-2022\Reporting.V5\SharedLib\Tenaris.Library.Log.dll</HintPath>
+    <Reference Include="Tenaris.Library.Log">
+      <HintPath>..\SharedLib\Model\Tenaris.Library.Log.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.System">
-      <HintPath>C:\Users\Gio\Documents\Tesis\FAVA\ReporteProduccion\Tenaris.Production.Reporting v1\SharedLib\Tenaris.Library.System.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Tenaris.Library.System.dll</HintPath>
     </Reference>
     <Reference Include="Tenaris.Library.UI.Framework">
-      <HintPath>..\packages\Tenaris.Library.UI.Framework.4.2.1\lib\net40\Tenaris.Library.UI.Framework.dll</HintPath>
+      <HintPath>..\SharedLib\Model\Tenaris.Library.UI.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
